@@ -1,0 +1,412 @@
+body,div,p,footer,dl,dd,dt,h1,h2,h3,h4,h5,h6,img,a,ul,li,ol{
+	margin:0px;
+	padding:0px;
+	font-family:MS Serif4, New York6, serif;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+			
+body {
+	margin: 0px;
+	background-image:url("/web/image/woodbackground.jpg");
+	background-repeat: repeat;
+	background-position:left top;
+}
+
+a {
+  -o-transition:.75s;
+  -ms-transition:.75s;
+  -moz-transition:.75s;
+  -webkit-transition:.75s;
+  transition:.75s;
+}
+
+div {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+
+div p {
+	opacity:1.0;
+	filter: alpha(opacity=100);
+}
+
+footer {
+	opacity:0.60;
+	filter: alpha(opacity=60);
+	position:absolute;
+	left:0;
+	right:0;
+	position:fixed;
+	bottom:0;
+	border-top: 2px solid #111111;
+	background-color:#FFEECD;
+	margin:5px 0px 0px 0px;
+	padding:5px 2px 2px 2px;
+	font-style:italic;
+	font-size:90%;
+	display:inline
+}
+
+.mainWrapper {
+	width:90%;
+	min-width:680px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.mainHeader {
+	background-color:rgba(232,180,153,0.7);
+	padding:2px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	margin-bottom:2px;
+	height:60px;
+}
+
+.mainHeader * {
+	background-color:rgba(0,0,0,0);
+}
+
+.logoHeader {
+	position:absolute;
+	width:70%;
+	margin-left:0px;
+}
+
+#companyName {
+	font-size:24pt;
+	font-weight:bold;
+	min-width:350px;
+}
+
+a:link, a:visited {
+	color:#662929;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+a:hover, a:active {
+	color:#8AE6B8;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.loginCart {
+	position:relative;
+	right:0;
+	height:60px;
+	float:right;
+	width:30%;
+	text-align:right;
+	font-size:70%;
+	vertical-align:text-top;
+}
+
+.loginCart p {
+	padding: 3px;
+}
+
+.loginCart a:hover, .loginCart a:active {
+	color:#FFFFFF;
+}
+
+.mainNavigation {
+	height:35px;
+	background-color:rgba(232,180,153,0.7);
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom:10px;
+	border-bottom:1px solid #000000;
+	
+}
+
+.mainNavigation ul, {
+	display:inline;
+	list-style:none;
+	color:#345678;
+}
+
+.mainNavigation ul li {
+	display:inline;
+	vertical-align:center;
+	line-height:35px;
+	padding: 2px;
+}
+
+.mainNavigation ul li a:link, .mainNavigation ul li a:visited {
+	font-size: 18pt;
+	font-weight: bold;
+	padding:0px 30px 0px 0px;
+}
+
+.contentBlock {
+	background-color:rgba(232,180,153,0.7);
+	margin-right:auto;
+	margin-left:auto;
+}
+
+img {
+	/*width:55%;
+	height:500px; */
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#welcomeBlock {
+	background-image: url("/web/image/paperbackground.jpg");
+	position:relative;
+	top:5px;
+	right:5px;
+	float:right;
+	width: 40%;
+	margin: 0px auto 0px auto;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	z-index:10;
+	border:2px dotted #663300;
+}
+
+#welcomeBlock p {
+	z-index:10;
+	opacity:1.0;
+	filter: alpha(opacity=100);
+}
+
+#welcomeLabel {
+	z-index:10;
+	font-weight: bold;
+	font-size:125%;
+}
+
+#welcomeText {
+	padding:15px 15px 5px 15px;
+	position:relative;
+	left:0;
+	top:0;
+	z-index:10;
+}
+#signature {
+	font-family: 'Tangerine', Comic Sans, serif;
+	font-weight:bold;
+	font-size:125%;
+	text-align: right;
+	z-index:10;
+	}
+
+#jobTitle {
+	font-family: Calibri, Comic Sans, serif;
+	text-align: right;
+	font-size:85%;
+	z-index:10;
+}
+
+
+
+
+.slideShow {
+	margin:50px auto;
+	width:500px;
+	height:300px;
+	overflow:hidden;
+	border:10px solid;
+	border-top-color:#856036;
+	border-left-color:#5d4426;
+	border-bottom-color:#856036;
+	border-right-color:#5d4426;
+	position:absolute;
+}
+
+.photo {
+	height:550px;
+	width:90%;
+	min-width:680px;
+	margin:0px;
+	z-index:0;
+	position:absolute;
+	-webkit-animation: round 72s infinite;
+	animation:round 72s infinite;
+	opacity:0;
+}
+@keyframes round {   
+	11%{opacity:1;}
+	22%{opacity:0;}
+} 
+
+@-webkit-keyframes round {
+	11%{opacity:1;}
+	22%{opacity:0;}
+}
+
+img:nth-child(9) {
+	animation-delay:0s; 
+	-webkit-animation-delay: 0s;
+}
+
+img:nth-child(8) {
+	animation-delay:8s; 
+	-webkit-animation-delay: 8s;
+}
+
+img:nth-child(7) {
+	animation-delay:16s; 
+	-webkit-animation-delay: 16s;
+}
+
+img:nth-child(6) {
+	animation-delay:24s; 
+	-webkit-animation-delay: 24s;
+}
+
+img:nth-child(5) {
+	animation-delay:32s; 
+	-webkit-animation-delay: 32s;
+}
+
+img:nth-child(4) {
+	animation-delay:40s; 
+	-webkit-animation-delay: 40s;
+}
+
+img:nth-child(3) {
+	animation-delay:48s; 
+	-webkit-animation-delay: 48s;
+}
+
+img:nth-child(2) {
+	animation-delay:56s; 
+	-webkit-animation-delay: 56s;
+}
+
+img:nth-child(1) {
+	animation-delay:64s; 
+	-webkit-animation-delay: 64s;
+}
+
+.contentBlock {
+	margin-bottom:40px;
+	min-height:550px;
+	overflow:hidden;
+}
+
+.sideBar {
+	float: left;
+	width: 250px;
+	margin-right: -60px;
+	margin-bottom: 40px;
+}
+
+#aboutPage .sideBar img {
+	height: 1000px;
+	width: 174px;
+}
+
+#aboutPage .contentBlock {
+
+}
+
+#aboutPageTitle {
+	padding: 5px;
+}
+
+#aboutOpening {
+	margin: 5px 15px 0px 15px;
+}
+
+#aboutOpening p {
+	padding:0px 15px 0px 0px;
+}
+
+#aboutImgOne {
+	top:0;
+	bottom:0;
+	position:relative;
+	float:right;
+	width:35%;
+	min-width: 300px;
+	max-width: 420px;
+	height:100%;
+	max-height:200px;
+	margin-right: 15px;
+}
+
+#aboutImgTwo {
+	height:200px;
+	width:25%;
+	position: relative;
+	float: right;
+	border: 5px solid #FFFFFF; /* This line should be removed when an image is added */
+}
+
+#aboutPage .contentBlock h1 {
+	font-size:18pt;
+	font-weight:bold;
+}
+
+#aboutPage .contentBlock h4 {
+	font-size:10pt;
+	font-style:italic;
+	margin:0;
+	padding:0;
+}
+
+#aboutPage .contentBlock h1, #aboutPage .contentBlock h4, #aboutPage .contentBlock hr {
+	color: #000000;
+}
+
+#aboutPage hr {
+	border: 1px dashed #000000;
+}
+
+#aboutPage h5 {
+	margin-left:10px;
+	font-size: 125%;
+	clear: right;
+}
+
+#aboutPage .contentBlock * {
+	font-size:110%;
+	font-family:Calibri, serif;
+	color: #000000;
+}
+
+
+#aboutPage .contentBlock ol {
+	list-style:upper-roman;
+	margin-left: 105px;
+	/*list-style-image: ehhhhhh */
+}
+
+
+#aboutPage .contentBlock ul strong {
+	font-size: 150%;
+	font-weight: bold;
+	color: #005A5A;
+}
+
+#aboutPage .contentBlock ul p {
+	margin-left:20px;
+	font-size:85%;
+	margin-right: 20%;
+}
+
+#lastModified {
+	position: relative;
+	text-align:right;
+	margin-right: 2px;
+	font-size: 55%;
+	color: #B4D2D6;
+	font-style: italic;
+}
+
+
+
