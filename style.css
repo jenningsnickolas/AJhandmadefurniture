@@ -381,7 +381,7 @@ img:nth-child(1) {
 
 
 #aboutPage .contentBlock ol {
-	list-style:upper-roman;
+	list-style:none;
 	margin-left: 105px;
 	/*list-style-image: ehhhhhh */
 }
