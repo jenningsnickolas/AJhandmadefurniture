@@ -10,6 +10,10 @@ function printFooter() {
 
 function printLastModifiedDate() {
 	var lastDate = new Date(document.lastModified);
-	var stringDate = (lastDate.getMonth()+1) + "-" + lastDate.getDate() + "-" + lastDate.getFullYear() + " " + lastDate.getHours() + ":" + lastDate.getMinutes();
+	var minutes = lastDate.getMinutes();
+	if (minutes < 10) {
+		minutes = "0" + minutes;
+	}
+	var stringDate = (lastDate.getMonth()+1) + "-" + lastDate.getDate() + "-" + lastDate.getFullYear() + " " + lastDate.getHours() + ":" + minutes;
 	document.write("Page last modified " + stringDate);
 }
