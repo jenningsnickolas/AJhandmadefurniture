@@ -10,7 +10,7 @@
 		<script type="text/javascript" src="/web/js/main.js"></script>
 	</head>
 	<body>
-		<div class="mainWrapper" id="">
+		<div class="mainWrapper" id="homePage">
 			<div class="mainHeader">
 				<div class="logoHeader">
 					<h1 id="companyName"><a href="/web/index.htm">AJ Handmade Furniture</a></h1>
@@ -34,7 +34,21 @@
 					<li><a href="/web/about.htm">About</a></li>
 				</ul>
 			</div>
-			<div class="contentBlock">
+			<div class="sideBar" id="homeSideBar">
+				<h3>Various Internal Links</h3>
+				<ul>
+					<li><a href="#">Image Library</a></li>
+					<li><a href="#">Build Manuals</a></li>
+				</ul>
+				<h3>Various External Links</h3>
+				<ul>
+					<li><a href="#">YouTube Channel</a></li>
+					<li><a href="#">GitHub Page</a></li>
+					<li><a href="#">Business License</a></li>	
+				</ul>
+			</div>			
+			<div class="contentBlock" id="welcomeDiv">
+				<img title="welcomeImage" id="welcomeImage" src="/web/image/picnictable2.jpg" />				
 				<div id="welcomeBlock">
 					<div id="welcomeText">
 						<p id="welcomeLabel">Welcome To Simplicity</p>
@@ -47,20 +61,18 @@
 						</div>
 					</div>
 				</div>
-				<div id="slideShow"> 
-					<img title="slide_show_photo_one" class="photo" src="/web/image/homeslideshow/bookshelf12202014.jpg" alt="photo of woodworking"/> 
-					<img title="slide_show_photo_two" class="photo" src="/web/image/homeslideshow/picnictable3.jpg" alt="photo of woodworking"/>
-					<img title="slide_show_photo_three" class="photo" src="/web/image/homeslideshow/engraving.jpg" alt="photo of woodworking"/>
-					<img title="slide_show_photo_four" class="photo" src="/web/image/homeslideshow/bookshelf12202014_2.jpg" alt="photo of woodworking"/> 
-					<img title="slide_show_photo_five" class="photo" src="/web/image/homeslideshow/picnictable2.jpg" alt="photo of woodworking"/>
-					<img title="slide_show_photo_six" class="photo" src="/web/image/homeslideshow/bookshelf12202014_3.jpg" alt="photo of woodworking"/> 
-					<img title="slide_show_photo_seven" class="photo" src="/web/image/homeslideshow/picnictable4.jpg" alt="photo of woodworking"/>
-					<img title="slide_show_photo_eight" class="photo" src="/web/image/homeslideshow/jackplane.jpg" alt="photo of woodworking"/>
-					<img title="slide_show_photo_nine" class="photo" src="/web/image/homeslideshow/bookshelf12202014_4.jpg" alt="photo of woodworking"/> 
-				</div>
-				<div="topSellers">
-				</div>
 			</div>
+			<div class="contentBlock" id="topSellers">
+				<h2>Top Sellers</h2>
+				<hr />
+				<p>This section will contain the top sellers</p>
+				<img src="/web/image/construction.jpg" width="500px" />
+			</div>
+			<p id="lastModified">
+				<script type="text/javascript">
+					printLastModifiedDate();
+				</script>
+			</p> 
 		</div>
 		<script>
 			printFooter();
