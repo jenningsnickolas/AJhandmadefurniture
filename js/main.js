@@ -1,9 +1,9 @@
 // initialize the counter and the array
-var versionNum = 0.05;
-compileDate = "12-29-2014";
+var versionNum = 0.06;
+compileDate = "1-2-2015";
 
 function printFooter() {
-	document.write("<footer><p style=\"float:right\"><strong>AJ Handmade Furniture</strong> &copy 2014</p>" + "<p style=\"text-align:left\"><strong>V " + versionNum + "</strong> Compiled " + compileDate + "</p></footer>");
+	document.write("<footer><p style=\"float:right\"><strong>AJ Handmade Furniture</strong> &copy 2015</p>" + "<p style=\"text-align:left\"><strong>V " + versionNum + "</strong> Compiled " + compileDate + "</p></footer>");
 }
 
 function printLastModifiedDate() {
