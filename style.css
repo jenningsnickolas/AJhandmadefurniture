@@ -406,5 +406,44 @@ img:nth-child(1) {
 	font-style: italic;
 }
 
+#contactPage hr {
+	border: 1px dashed #000000;
+	margin: 5px 15px;
+}
 
+#contactPage .sideBar img {
+	width: 175px;
+	height: 1000px;
+}
 
+#contactPage .contentBlock {
+	margin-left: 200px;
+}
+
+#contactPage .contentBlock h1 {
+	font-size: 18pt;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 15px;
+}
+
+#contactInfo {
+	padding: 50px 0;
+}
+
+#contactInfo * {
+	text-align: center;
+	font-family: Helvetica, Times Roman, serif;
+	font-size: 16pt;
+}
+
+#contactInfo h3 {
+	font-size: 20pt;
+}
+
+#contactInfo hr {
+	border: 1px solid #666666;
+	width: 65%;
+	text-align: center;
+	margin: 15px auto;
+}
