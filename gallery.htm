@@ -8,10 +8,11 @@
 		<link rel="stylesheet" type="text/css" href="/web/style.css">
 		<link href="/web/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 		<script type="text/javascript" src="/web/js/main.js"></script>
+		<script type="text/javascript" src="/web/js/gallery.js"></script>
 	</head>
 		
 	<body>
-		<div class="mainWrapper">
+		<div class="mainWrapper" id="galleryPage">
 			<div class="mainHeader">
 				<div class="logoHeader">
 					<p id="companyName"><a href="/web/index.htm">AJ Handmade Furniture</a></p>
@@ -36,9 +37,13 @@
 				</ul>
 			</div>
 			<div class="contentBlock">
-				<h1>Welcome to the gallery</h1>
-				<h3>This section is still under construction by the webmaster</h3>
-				<img src="/web/image/construction.jpg" />
+				<h1>Gallery of Images</h1>
+				<p>To view the image source click on the image.</p>
+				<div class="center">
+					<script>
+						printAllImg();
+					</script>
+				</div>
 			</div>
 		</div>
 		<script>
