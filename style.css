@@ -1,7 +1,7 @@
 body,div,p,footer,dl,dd,dt,h1,h2,h3,h4,h5,h6,img,a,ul,li,ol{
 	margin:0px;
 	padding:0px;
-	font-family:MS Serif4, New York6, serif;
+	font-family: Times New Roman, Helvetica, Times Roman, Comic Sans, serif;
 	-webkit-margin-before: 0px;
 	-webkit-margin-after: 0px;
 	-webkit-margin-start: 0px;
@@ -9,7 +9,6 @@ body,div,p,footer,dl,dd,dt,h1,h2,h3,h4,h5,h6,img,a,ul,li,ol{
 }
 			
 body {
-	margin: 0px;
 	background-image:url("/web/image/utility/woodbackground.jpg");
 	background-repeat: repeat;
 	background-position:left top;
@@ -102,10 +101,9 @@ h1:after {
 	margin-right:auto;
 }
 
-#companyName {
-	font-size:24pt;
-	font-weight:bold;
-	min-width:350px;
+.contentBlock {
+	margin-bottom: 10px;
+	overflow:hidden;
 }
 
 a:link, a:visited {
@@ -125,7 +123,7 @@ a:hover, a:active {
 	right:0;
 	height:60px;
 	float:right;
-	width:30%;
+	width:auto;
 	text-align:right;
 	font-size:70%;
 	vertical-align:text-top;
@@ -170,32 +168,29 @@ a:hover, a:active {
 }
 
 img {
-	/*width:55%;
-	height:500px; */
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-o-border-radius: 5px;
 	border-radius: 5px;
 }
 
-.contentBlock {
-	margin-bottom: 40px;
-	overflow:hidden;
-}
-
 .sideBar {
 	float: left;
 	margin-right: -60px;
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 }
 
 .sideBarRight {
 	float: right;
 	margin-left: -60px;
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 }
 
-
+#companyName {
+	font-size:24pt;
+	font-weight:bold;
+	min-width:350px;
+}
 
 #homePage .contentBlock {
 	margin-left: 200px;
@@ -264,14 +259,13 @@ img {
 }
 
 #signature {
-	font-family: 'Tangerine', Comic Sans, serif;
+	font-family: 'Tangerine', Times New Roman, Helvetica, Times Roman, Comic Sans, serif;
 	font-weight:bold;
 	font-size:125%;
 	text-align: right
 }
 
 #jobTitle {
-	font-family: Calibri, Comic Sans, serif;
 	text-align: right;
 	font-size:85%;
 }
@@ -325,15 +319,6 @@ img {
 	height:100%;
 	max-height:200px;
 	margin-right: 10px;
-	padding-left: 5px;
-}
-
-#aboutImgTwo {
-	height:200px;
-	width:25%;
-	position: relative;
-	float: right;
-	border: 5px solid #FFFFFF; /* This line should be removed when an image is added */
 }
 
 #aboutPage .contentBlock h4 {
@@ -359,14 +344,11 @@ img {
 
 #aboutPage .contentBlock * {
 	font-size:110%;
-	font-family:Calibri, serif;
-	color: #000000;
 }
 
 #aboutPage .contentBlock ol {
 	list-style:none;
 	margin-left: 105px;
-	/*list-style-image: ehhhhhh */
 }
 
 #aboutPage .contentBlock ul strong {
@@ -411,7 +393,6 @@ img {
 }
 
 #contactSecondBlock {
-	margin-right: 500px;
 	height: 695px;
 }
 
@@ -425,7 +406,6 @@ img {
 
 #contactInfo * {
 	text-align: center;
-	font-family: Helvetica, Times Roman, serif;
 	font-size: 16pt;
 }
 
@@ -451,3 +431,22 @@ img {
 #galleryPage .contentBlock p  {
 	padding: 0 0 0 15px;
 }
+
+#reviewPage .sideBarRight img {
+	width: 175px;
+	height: 1000px;
+}
+
+#reviewPage .contentBlock {
+	margin-right: 200px;
+}
+
+#testimonialBlock {
+	height: 700px;
+	margin-bottom: 5px;
+}
+
+#addTestimonyBlock {
+	height: 295px;
+}
+
