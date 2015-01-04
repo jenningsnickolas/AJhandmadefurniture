@@ -79,7 +79,7 @@ h1:after {
 }
 
 .mainHeader {
-	background-color:rgba(232,180,153,0.7);
+	background-color:rgba(232,180,153,0.8);
 	padding:2px 4px;
 	margin-top:5px;
 	margin-bottom:2px;
@@ -141,7 +141,7 @@ a:hover, a:active {
 
 .mainNavigation {
 	height:35px;
-	background-color:rgba(232,180,153,0.7);
+	background-color:rgba(232,180,153,0.8);
 	margin-bottom:10px;
 	border-bottom:1px solid #000000;
 	padding:2px 4px;
@@ -166,7 +166,7 @@ a:hover, a:active {
 }
 
 .contentBlock {
-	background-color:rgba(232,180,153,0.7);
+	background-color:rgba(232,180,153,0.8);
 }
 
 img {
@@ -180,7 +180,6 @@ img {
 
 .contentBlock {
 	margin-bottom: 40px;
-	min-height:550px;
 	overflow:hidden;
 }
 
@@ -203,7 +202,7 @@ img {
 }
 
 #homeSideBar {
-	background-color:rgba(232,180,153,0.7);
+	background-color:rgba(232,180,153,0.8);
 	min-height: 1000px;
 	padding: 3px;
 }
@@ -223,7 +222,7 @@ img {
 	background-image: url("/web/image/picnictable2.jpg");
 	background-position: left top;
 	background-size: cover;
-	min-height: 150px;
+	height: 150px;
 	height: 380px;
 	margin-bottom: 10px;
 	padding: 2px;
@@ -337,11 +336,6 @@ img {
 	border: 5px solid #FFFFFF; /* This line should be removed when an image is added */
 }
 
-/* #aboutPage .contentBlock h1 {
-	font-size:18pt;
-	font-weight:bold;
-}
- */
 #aboutPage .contentBlock h4 {
 	font-size:10pt;
 	font-style:italic;
@@ -349,7 +343,7 @@ img {
 	padding:0 0 0 25px;
 }
 
-/* #aboutPage .contentBlock h1, */ #aboutPage .contentBlock h4, #aboutPage .contentBlock hr {
+#aboutPage .contentBlock h4, #aboutPage .contentBlock hr {
 	color: #000000;
 }
 
@@ -409,7 +403,16 @@ img {
 
 #contactPage .contentBlock {
 	margin-right: 200px;
-	min-height: 1000px;
+}
+
+#contactFirstBlock {
+	height: 300px;
+	margin-bottom: 5px;
+}
+
+#contactSecondBlock {
+	margin-right: 500px;
+	height: 695px;
 }
 
 #contactPage .contentBlock h2 {
