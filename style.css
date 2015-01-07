@@ -450,3 +450,22 @@ img {
 	height: 295px;
 }
 
+#productsPage .sideBar {
+	width: 175px;
+	background-color:rgba(232,180,153,0.8);
+	min-height: 1000px;
+}
+
+#productsPage .sideBar ul {
+	list-style-type:  none;
+	width: 175px;
+	padding: 1px 5px 5px;
+}
+
+#productsPage .contentBlock {
+	margin-left: 200px;
+}
+
+#productOrdering {
+	height: 35px;
+}
