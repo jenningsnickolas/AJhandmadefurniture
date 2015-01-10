@@ -1,16 +1,15 @@
-body,div,p,footer,dl,dd,dt,h1,h2,h3,h4,h5,h6,img,a,ul,li,ol{
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, ul, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{
 	margin:0px;
 	padding:0px;
+	font-size: 100%;
+	font: inherit;
 	font-family: Times New Roman, Helvetica, Times Roman, Comic Sans, serif;
-	-webkit-margin-before: 0px;
-	-webkit-margin-after: 0px;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
 }
 			
 body {
 	background-image:url("/web/image/utility/woodbackground.jpg");
-	background-repeat: repeat;
+	background-size: 100%;
+	background-repeat: repeat-y;
 	background-position:left top;
 }
 
@@ -53,9 +52,10 @@ footer {
 
 .mainWrapper {
 	width:90%;
-	min-width:680px;
+	min-width:900px;
 	margin-left:auto;
 	margin-right:auto;
+	max-width:1200px;
 }
 
 h1 {
@@ -176,13 +176,11 @@ img {
 
 .sideBar {
 	float: left;
-	margin-right: -60px;
 	margin-bottom: 10px;
 }
 
 .sideBarRight {
 	float: right;
-	margin-left: -60px;
 	margin-bottom: 10px;
 }
 
@@ -296,7 +294,7 @@ img {
 }
 
 #aboutPage .contentBlock {
-	margin-left: 200px;
+	margin-left: 185px;
 	min-height: 1000px;
 }
 
@@ -384,7 +382,7 @@ img {
 }
 
 #contactPage .contentBlock {
-	margin-right: 200px;
+	margin-right: 185px;
 }
 
 #contactFirstBlock {
@@ -438,7 +436,7 @@ img {
 }
 
 #reviewPage .contentBlock {
-	margin-right: 200px;
+	margin-right: 185px;
 }
 
 #testimonialBlock {
@@ -463,9 +461,99 @@ img {
 }
 
 #productsPage .contentBlock {
-	margin-left: 200px;
+	margin-left: 185px;
+}
+
+#productList {
+	height: 960px;
 }
 
 #productOrdering {
-	height: 35px;
+	height: 30px;
+	font-size: 130%;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#productOrdering button {
+	display: inline;
+}
+
+#productOrdering p {
+	margin-top: 5px;
+	margin-left: 10px;
+	display: inline;
+	height: 100%;
+	vertical-align: text-bottom;
+}
+
+#productFilter ul {
+	margin-top: 5px;
+	font-size: 125%;
+}
+
+#productFilter ul li p {
+	text-decoration: underline;
+}
+
+#productFilter ul ul, #productFilter ul ul li {
+	margin-left: 5px;
+	font-size: 90%;
+	text-decoration: none;
+}
+
+#productsPage .priceInput {
+	position: relative;
+	display: inline;
+	width: 50px;
+	text-align: right;
+}
+
+.individualProduct {
+	width: 95%;
+	height: 110px;
+	margin: 10px auto 10px 5px;
+	border: 1px dashed #000000;
+	padding: 2px;
+	-o-transition:.75s;
+	-ms-transition:.75s;
+	-moz-transition:.75s;
+	-webkit-transition:.75s;
+	transition:.75s;
+	overflow: hidden;
+}
+
+.individualProduct h2 {
+	font-weight: bold;
+	display: inline;
+	font-size: 105%;
+}
+
+.individualProduct img {
+	height: 100%;
+	width: 150px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	float: left;
+	-o-transition:.75s;
+	-ms-transition:.75s;
+	-moz-transition:.75s;
+	-webkit-transition:.75s;
+	transition:.75s;
+}
+
+.individualProduct:hover {
+	box-shadow: 4px 4px 3px #000022;
+	height: 115px;
+	margin: 10px auto 10px 5px;
+}
+
+.productText {
+	margin: 2px 155px;
+}
+
+.productText ul {
+	margin: 5px 0 5px 35px;
 }

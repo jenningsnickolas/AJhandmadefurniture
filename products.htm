@@ -35,33 +35,87 @@
 					<li><a href="/web/about.htm">About</a></li>
 				</ul>
 			</div>
-			<div class="sideBar">
-				<p>When fully functional this will filter</p>
-				<ul>
-					<li>
-						Type
-						<ul>
-							<li>Outdoor</li>
-							<li>Indoor</li>
-						</ul>
-					</li>
-					<li>
-						Cost
-						<ul>
-							<li>Max: [INPUT]</li>
-							<li>Min: [INPUT]</li>
-						</ul>
-					</li>
-				</ul>
+			<div class="sideBar" id="productFilter">
+				<h1>Product Filters</h1>
+				<h2>*Not Functional Yet*</h2>
+				<button type="button">Apply</button>
+				<form id="filterForm">
+					<ul>
+						<li>
+							<p>Type</p>
+							<ul>
+								<li><input type="checkbox" name="outdoorBoolean"> Outdoor</li>
+								<li><input type="checkbox" name="indoorBoolean"> Indoor</li>
+							</ul>
+						</li>
+						<li>
+							<p>Cost</p>
+							<ul>
+								<li>Max: <input type="text" name="maxPrice" class="priceInput"></li>
+								<li>Min: <input type="text" name="minPrice" class="priceInput"></li>
+							</ul>
+						</li>
+						<li>
+							<p>Stock</p>
+							<ul>
+								<li><input type="checkbox" name="inStockBoolean"> In Stock</li>
+								<li><input type="checkbox" name="outOfStockBoolean"> Build Required<li>
+							</ul>
+						</li>
+						<li>
+							<p>Blueprints</p>
+							<ul>
+								<li><input type="checkbox" name="blueprintAvailable"> Available</li>
+								<li><input type="checkbox" name="blueprintNotAvailable"> Not Available<li>
+							</ul>
+						</li>
+					</ul>
+				</form>
 			</div>
 			<div class="contentBlock" id="productOrdering">
-				<p>Order by: [PRODUCT TRAIT]</p>
+				<button type="button">Apply</button>
+				<p>Order by: </p>
+				<select>
+					<option value="price">Price</option>
+					<option value="rating">Rating</option>
+					<option value="blueprintPurchases">Blueprint Purchases</option>
+					<option value="numberReviews">Reviews</option>
+				</select>
+				<p>*Not Functional Yet*</p>
 			</div>
 			
-			<div class="contentBlock">
+			<div class="contentBlock" id="productList">
 				<h1>Welcome to the products page</h1>
-				<h3>This section is still under construction by the webmaster</h3>
-				<img src="/web/image/utility/construction.jpg" />
+				<div class="individualProduct">
+					<a href="/web/products/picnic_table.htm"><img src="/web/image/picnictable2.jpg" /></a>
+					<div class="productText">
+						<a href="/web/products/picnic_table.htm"><h2>8' Pine Picnic Table</h2></a>
+						<ul>
+							<li>2"x6" Pressure Treated Pine Wood</li>
+							<li>Routed Edges</li>
+							<li>Two Coat Exterior Polyurethane, Color Choice</li>
+						</ul>
+						<h2>$250.00</h2>
+					</div>
+				</div>
+				<div class="individualProduct">
+					<img src="/web/image/utility/construction.jpg" />
+				</div>
+				<div class="individualProduct">
+					<img src="/web/image/utility/construction.jpg" />
+				</div>
+				<div class="individualProduct">
+					<img src="/web/image/utility/construction.jpg" />
+				</div>
+				<div class="individualProduct">
+					<img src="/web/image/utility/construction.jpg" />
+				</div>
+				<div class="individualProduct">
+					<img src="/web/image/utility/construction.jpg" />
+				</div>
+				<div class="individualProduct">
+					<img src="/web/image/utility/construction.jpg" />
+				</div>
 			</div>
 			<p id="lastModified">
 				<script type="text/javascript">
