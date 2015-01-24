@@ -13,6 +13,14 @@ body {
 	background-position:left top;
 }
 
+body * {
+	-o-transition:0.8s;
+	-ms-transition:0.8s;
+	-moz-transition:0.8s;
+	-webkit-transition:0.8s;
+	transition:0.8s;
+}
+
 a {
   -o-transition:.75s;
   -ms-transition:.75s;
@@ -26,6 +34,7 @@ div {
 	-webkit-border-radius: 5px;
 	-o-border-radius: 5px;
 	border-radius: 5px;
+	
 }
 
 div p {
@@ -60,25 +69,32 @@ footer {
 
 h1 {
 	font-size:18pt;
-	font-weight:bold;
-	padding: 5px;
 }
 
-h1:after {
-    content:' ';
-	display:block;
+h2 {
+	font-size:16pt;
+}
+
+h3 {
+	font-size:14pt;
+}
+
+h1:after, h2:after {
+    content: ' ';
+	display: block;
 	border: 1px dashed #000000;
 	margin: 0px;
-    border-radius:4px;
-    -webkit-border-radius:4px;
-    -moz-border-radius:4px;
-    box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
-    -webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
-    -moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
 }
 
-h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
+	padding: 5px;
 }
 
 .mainHeader {
@@ -186,6 +202,61 @@ img {
 .sideBarRight {
 	float: right;
 	margin-bottom: 10px;
+}
+
+.topSellerDivider {
+	float: left;
+	width: 33%;
+	height: 575px;
+	margin-top: 5px;
+}
+
+
+
+.topSeller {
+	border: 1px dashed #000000;
+	width: 85%;
+	margin: 5px auto;
+	height: 95%;
+	text-align: center;
+	overflow: hidden;
+}
+
+.topSeller img {
+	width: 90%;
+	height: 200px;
+	margin: 5px auto;
+}
+
+.topSeller img:hover {
+	box-shadow: 3px 3px 3px #000022;
+	width: 91%;
+	height: 201px;
+}
+
+.topSellerContent {
+	text-align: left;
+}
+
+.topSellerContent ul{
+	list-style: bullet;
+	margin: 5px 5px 5px 30px;
+	height: 150px;
+}
+
+.topSellerContent h4 {
+	font-size: 110%;
+	margin: 3px 30% 3px 3px;
+	text-decoration: underline;
+}
+
+.topSellerPrice {
+	font-weight: bold;
+	font-size: 16pt;
+	text-align: right;
+	margin-right: 15px;
+	position: relative;
+	top: 20px;
 }
 
 #companyName {
@@ -517,49 +588,55 @@ img {
 
 .individualProduct {
 	width: 95%;
-	height: 110px;
+	height: 150px;
 	margin: 10px auto 10px 5px;
 	border: 1px dashed #000000;
 	padding: 2px;
-	-o-transition:.75s;
-	-ms-transition:.75s;
-	-moz-transition:.75s;
-	-webkit-transition:.75s;
-	transition:.75s;
 	overflow: hidden;
 }
 
-.individualProduct h2 {
-	font-weight: bold;
-	display: inline;
-	font-size: 105%;
-}
-
 .individualProduct img {
-	height: 100%;
+	height: 145px;
 	width: 150px;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
 	-o-border-radius: 2px;
 	border-radius: 2px;
 	float: left;
-	-o-transition:.75s;
-	-ms-transition:.75s;
-	-moz-transition:.75s;
-	-webkit-transition:.75s;
-	transition:.75s;
+	margin-right: 5px;
 }
 
 .individualProduct:hover {
 	box-shadow: 4px 4px 3px #000022;
-	height: 115px;
+	height: 155px;
 	margin: 10px auto 10px 5px;
 }
 
+.productTitle {
+	text-decoration: underline;
+	font-size: 110%;
+}
+
 .productText {
-	margin: 2px 155px;
+	margin: 5px;
 }
 
 .productText ul {
-	margin: 5px 0 5px 35px;
+	margin: 5px 0 5px 45px;
+	float: left;
+	display: inline;
+	height: 80px;
+}
+
+.productText ul:last-child {
+	clear: right;
+}
+
+.productPrice {
+	font-weight: bold;
+	font-size: 110%;
+	width: 80%;
+	float: right;
+	text-align: right;
+	margin: 10px;
 }
