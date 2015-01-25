@@ -165,6 +165,10 @@ a:hover, a:active {
 	padding:2px 4px;
 }
 
+.selectedNavigation {
+	text-decoration: underline;
+}
+
 .mainNavigation ul {
 	display:inline;
 	list-style:none;
@@ -180,7 +184,7 @@ a:hover, a:active {
 .mainNavigation ul li a:link, .mainNavigation ul li a:visited {
 	font-size: 18pt;
 	font-weight: bold;
-	padding:0px 30px 0px 0px;
+	padding:0px 40px 0px 0px;
 }
 
 .contentBlock {
