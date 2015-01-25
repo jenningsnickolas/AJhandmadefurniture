@@ -61,7 +61,7 @@ footer {
 
 .mainWrapper {
 	width:90%;
-	min-width:900px;
+	min-width:1000px;
 	margin-left:auto;
 	margin-right:auto;
 	max-width:1200px;
@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mainHeader {
-	background-color:rgba(232,180,153,0.8);
+	background-color:rgba(232,180,153,0.9);
 	padding:2px 4px;
 	margin-top:5px;
 	margin-bottom:2px;
@@ -159,7 +159,7 @@ a:hover, a:active {
 
 .mainNavigation {
 	height:35px;
-	background-color:rgba(232,180,153,0.8);
+	background-color:rgba(232,180,153,0.9);
 	margin-bottom:10px;
 	border-bottom:1px solid #000000;
 	padding:2px 4px;
@@ -184,7 +184,7 @@ a:hover, a:active {
 }
 
 .contentBlock {
-	background-color:rgba(232,180,153,0.8);
+	background-color:rgba(232,180,153,0.9);
 }
 
 img {
@@ -252,11 +252,23 @@ img {
 
 .topSellerPrice {
 	font-weight: bold;
-	font-size: 16pt;
-	text-align: right;
-	margin-right: 15px;
+	font-size: 150%;
+	float: right;
+	margin-right: 10px;
 	position: relative;
-	top: 20px;
+	top: 30px;
+	border: 2px solid #666666;
+	padding: 2px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #888855;
+}
+
+.topSellerPrice:hover{
+	box-shadow: 3px 3px 3px #000022;
+	color:#000000;
 }
 
 #companyName {
@@ -270,7 +282,7 @@ img {
 }
 
 #homeSideBar {
-	background-color:rgba(232,180,153,0.8);
+	background-color:rgba(232,180,153,0.9);
 	min-height: 1000px;
 	padding: 3px;
 }
@@ -527,7 +539,7 @@ img {
 
 #productsPage .sideBar {
 	width: 175px;
-	background-color:rgba(232,180,153,0.8);
+	background-color:rgba(232,180,153,0.9);
 	min-height: 1000px;
 }
 
@@ -564,6 +576,10 @@ img {
 	vertical-align: text-bottom;
 }
 
+#productFilter{
+	padding-left: 2px;
+}
+
 #productFilter ul {
 	margin-top: 5px;
 	font-size: 125%;
@@ -591,7 +607,7 @@ img {
 	height: 150px;
 	margin: 10px auto 10px 5px;
 	border: 1px dashed #000000;
-	padding: 2px;
+	padding: 1px;
 	overflow: hidden;
 }
 
@@ -606,10 +622,10 @@ img {
 	margin-right: 5px;
 }
 
-.individualProduct:hover {
-	box-shadow: 4px 4px 3px #000022;
-	height: 155px;
-	margin: 10px auto 10px 5px;
+.individualProduct img:hover {
+	box-shadow: 1px 1px 3px #666666;
+	height: 146px;
+	width: 151px;
 }
 
 .productTitle {
@@ -618,7 +634,7 @@ img {
 }
 
 .productText {
-	margin: 5px;
+	height: 90px;
 }
 
 .productText ul {
@@ -634,9 +650,20 @@ img {
 
 .productPrice {
 	font-weight: bold;
-	font-size: 110%;
-	width: 80%;
+	font-size: 150%;
 	float: right;
-	text-align: right;
-	margin: 10px;
+	margin: 0 10px 0 0;
+	border: 2px solid #666666;
+	padding: 2px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #888855;
 }
+
+.productPrice:hover{
+	box-shadow: 3px 3px 3px #000022;
+	color:#000000;
+}
+
