@@ -423,10 +423,6 @@
 		color: #000000;
 	}
 
-	#aboutPage hr {
-		border: 1px dashed #000000;
-	}
-
 	#aboutPage h5 {
 		padding-top:25px;
 		margin:10px 5px 5px 5px;
@@ -687,3 +683,31 @@
 	}
 /*End Product Page*/
 
+/*Start Custom Order Page*/
+	#customOrderPage .sideBar img {
+		width: 175px;
+		height: 1000px;
+	}
+	
+	#customOrderPage .contentBlock {
+		margin-left: 185px;
+		min-height: 1000px;
+		padding: 1px;
+	}
+	
+	#customOrderPage .contentBlock ol {
+		list-style-type: upper-roman;
+		margin: 0px 0px 0px 60px;
+		width: 500px;
+	}
+	
+	#customOrderPage .contentBlock ol li h3 {
+		font-size: 175%;
+	}
+	
+	#customOrderPage .contentBlock ol li p {
+		margin-left: 20px;
+	}
+	
+	
+/*End Custom Order Page*/
