@@ -22,3 +22,7 @@ function printLastModifiedDate() {
 	var stringDate = (lastDate.getMonth()+1) + "-" + lastDate.getDate() + "-" + lastDate.getFullYear() + " " + hours + ":" + minutes + " " + varTimeOfDay;
 	document.write("Page last modified " + stringDate);
 }
+
+function notFunctional() {
+	window.alert("This function does not work at the moment. The skills required are outside the scope of the webmaster. They will be implemented prior to the release of V1.0");
+}
