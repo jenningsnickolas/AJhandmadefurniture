@@ -50,9 +50,15 @@
 			</div>
 			<div class="contentBlock" id="contactSecondBlock">
 				<h1>Send A Direct Message</h1>
-				<p>This section will allow the use to type a message directly in text area and hit submit.</p>
-				<!-- Add a form element for users to directly contact email from this page -->
-				<img src="/web/image/utility/construction.jpg" />
+				<form name="directContact" id="directContact">
+					<h4>Name:</h4>
+					<input name="nameInput" id="nameInput" class="messageInputs" type="text" />
+					<h4>Email:</h4>
+					<input name="emailInput" id="emailInput" class="messageInputs" type="text" />
+					<h4>Message:</h4>
+					<textarea name="messageInput" id="messageContentInput" type="text" ></textarea>
+					<input type="button" id="submitContactMessage" value="Send Message" onclick="notFunctional()" />
+				</form>
 			</div>
 			<p id="lastModified">
 				<script type="text/javascript">
