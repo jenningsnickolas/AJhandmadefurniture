@@ -134,6 +134,18 @@
 		font-weight:bold;
 		min-width:350px;
 	}
+	
+	#companyLogo {
+		height: 55px;
+		width: 55px;
+		float: left;
+		border: 1px solid #000000;
+		margin-right: 2px;
+	}
+	
+	#companyLogo:hover {
+		box-shadow: 1px 1px 1px #666666;
+	}
 
 	.loginCart {
 		position:relative;
@@ -529,8 +541,9 @@
 	
 /*End Contact Page*/
 
+
 /*Start Gallery Page*/
-	#galleryPage img  {
+	#galleryPage .contentBlock img  {
 		width: 200px;
 		height: 300px;
 		display: inline;
@@ -554,12 +567,19 @@
 	}
 
 	#testimonialBlock {
-		height: 700px;
+		height: 295px;
 		margin-bottom: 5px;
 	}
 
+	#testimonialBlock p{
+		width:300px;
+		font-size: 135%;
+		font-style: italic;
+		margin: 20px auto 0px 100px;
+	}
+	
 	#addTestimonyBlock {
-		height: 295px;
+		height: 700px;
 	}
 /*End Review Page*/
 
